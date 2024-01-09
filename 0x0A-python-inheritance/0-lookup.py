@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-''' function that returns the list
+'''0-lookup.py
 '''
 
 
 def lookup(obj):
-    ''' function: lookup()
-    Returns a list object
-    '''
+    """ returns the list of available attributes and methods of an object """
     return dir(obj)
